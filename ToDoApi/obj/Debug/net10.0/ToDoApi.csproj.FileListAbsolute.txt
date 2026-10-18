@@ -291,3 +291,5 @@ C:\dev\me-learning-ASP.NET-Core-Web-API\ToDoApi\bin\Debug\net10.0\runtimes\osx-x
 C:\dev\me-learning-ASP.NET-Core-Web-API\ToDoApi\bin\Debug\net10.0\runtimes\win-arm64\native\msalruntime_arm64.dll
 C:\dev\me-learning-ASP.NET-Core-Web-API\ToDoApi\bin\Debug\net10.0\runtimes\win-x64\native\msalruntime.dll
 C:\dev\me-learning-ASP.NET-Core-Web-API\ToDoApi\bin\Debug\net10.0\runtimes\win-x86\native\msalruntime_x86.dll
+C:\dev\me-learning-ASP.NET-Core-Web-API\ToDoApi\bin\Debug\net10.0\Npgsql.dll
+C:\dev\me-learning-ASP.NET-Core-Web-API\ToDoApi\bin\Debug\net10.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

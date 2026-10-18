@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "jClt3V/Mg5Q=",
+  "dgSpecHash": "zphpdnlN0hQ=",
   "success": true,
   "projectFilePath": "C:\\dev\\me-learning-ASP.NET-Core-Web-API\\ToDoApi\\ToDoApi.csproj",
   "expectedPackageFiles": [
@@ -113,6 +113,8 @@
     "C:\\Users\\cagan\\.nuget\\packages\\njsonschema.annotations\\11.6.1\\njsonschema.annotations.11.6.1.nupkg.sha512",
     "C:\\Users\\cagan\\.nuget\\packages\\njsonschema.newtonsoftjson\\11.6.1\\njsonschema.newtonsoftjson.11.6.1.nupkg.sha512",
     "C:\\Users\\cagan\\.nuget\\packages\\njsonschema.yaml\\11.6.1\\njsonschema.yaml.11.6.1.nupkg.sha512",
+    "C:\\Users\\cagan\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512",
+    "C:\\Users\\cagan\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\10.0.3\\npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512",
     "C:\\Users\\cagan\\.nuget\\packages\\nswag.annotations\\14.7.1\\nswag.annotations.14.7.1.nupkg.sha512",
     "C:\\Users\\cagan\\.nuget\\packages\\nswag.aspnetcore\\14.7.1\\nswag.aspnetcore.14.7.1.nupkg.sha512",
     "C:\\Users\\cagan\\.nuget\\packages\\nswag.core\\14.7.1\\nswag.core.14.7.1.nupkg.sha512",
