@@ -1,0 +1,32 @@
+services:
+  api:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      ASPNETCORE_ENVIRONMENT: Development
+      ConnectionStrings__TodoDb: "Host=db;Port=5432;Database=tododb;Username=todoapp;Password=${DB_PASSWORD}"
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgres:17
+    environment:
+      POSTGRES_USER: todoapp
+      POSTGRES_PASSWORD: ${DB_PASSWORD}
+      POSTGRES_DB: tododb
+    volumes:
+      - todo_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U todoapp -d tododb"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+
+volumes:
+  todo_pgdata:
+    external: true
+      
+      
