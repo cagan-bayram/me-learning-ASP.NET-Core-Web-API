@@ -28,10 +28,10 @@ jobs:
               run: dotnet restore
             
             - name: Restore test dependencies
-              run: dotnet restore tests/ToDoApi.Tests/ToDoApi.Tests.csproj
+              run: dotnet restore tests/TodoApi.Tests/TodoApi.Tests.csproj
 
             - name: Build application
               run: dotnet build --no-restore --configuration Release
 
             - name: Run automated tests
-              run: dotnet test tests/ToDoApi.Tests/ToDoApi.Tests.csproj --configuration Release
+              run: dotnet test tests/TodoApi.Tests/TodoApi.Tests.csproj --configuration Release
