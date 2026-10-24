@@ -35,3 +35,6 @@ jobs:
 
             - name: Run automated tests
               run: dotnet test tests/TodoApi.Tests/TodoApi.Tests.csproj --configuration Release
+            
+            - name: Build Docker image
+              run: docker build -t todoapi:ci .
